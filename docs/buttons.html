@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Probably the most complete UI kit out there. Multiple functionalities and controls added,  extended color palette and beautiful typography, designed as its own extended version of Bootstrap at  the highest level of quality.                             ">
+    <meta name="author" content="Webpixels">
+    <title>创作步骤详解</title>
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Nunito:400,600,700,800|Roboto:400,500,700" rel="stylesheet">
+    <!-- Plugins -->
+    <link rel="stylesheet" href="../assets/vendor/animate/animate.min.css" type="text/css">
+    <!-- Theme CSS -->
+    <link type="text/css" href="../assets/css/theme.css" rel="stylesheet">
+    <!-- Demo CSS - No need to use these in your project -->
+    <link rel="stylesheet" href="../assets/vendor/jquery-scrollbar/css/jquery-scrollbar.css">
+    <link type="text/css" href="../assets/vendor/highlight/css/highlight.min.css" rel="stylesheet">
+    <link type="text/css" href="../assets/css/demo.css" rel="stylesheet">
+</head>
+
+<body>
+    <main class="main">
+        <aside class="sidebar" id="nav_docs">
+            <div class="sidebar-brand">
+                <h1 class="font-weight-400"><a href="../index.html"><span class="font-weight-700">创作平台</span> 步骤详解</a></h1>
+            </div>
+            <div class="scrollbar-inner">
+                <ul class="navigation pr-3">
+                    <li class="navigation-title">账号注册</li>
+                    <li class="navigation-item">
+                        <a href="#" class="navigation-link">1、头条号注册</a>
+                    </li>
+                    <li class="navigation-item">
+                        <a href="#" class="navigation-link">2、西瓜视频注册</a>
+                    </li>
+                    <li class="navigation-item">
+                        <a href="#" class="navigation-link">3、抖音号注册</a>
+                    </li>
+                    <li class="navigation-item">
+                        <a href="#" class="navigation-link">4、账号关联</a>
+                    </li>
+                    <!-- <li class="navigation-item">
+                        <a href="update.html" class="navigation-link">Update</a>
+                    </li> -->
+                    <li class="navigation-title">视频剪辑</li>
+                    <li class="navigation-item">
+                        <a href="#" class="navigation-link">素材寻找</a>
+                    </li>
+                    <li class="navigation-item">
+                        <a href="#" class="navigation-link">影评/详解寻找</a>
+                    </li>
+                    <li class="navigation-item">
+                        <a href="#" class="navigation-link">文字转语音</a>
+                    </li>
+                    <a href="#" class="navigation-link">识别字幕</a>
+                    </li>
+                    <li class="navigation-item">
+                        <a href="#" class="navigation-link">画面匹配</a>
+                    </li>
+                    <li class="navigation-item">
+                        <a href="#" class="navigation-link">画面替换</a>
+                    </li>
+                    <li class="navigation-title">视频发布</li>
+                    <li class="navigation-item">
+
+
+                        <li class="navigation-item">
+                            <a href="#" class="navigation-link">平台视频发布</a>
+                        </li>
+                        <!-- <li class="navigation-item">
+                            <a href="cards.html" class="navigation-link">Cards</a>
+                        </li>
+                        <li class="navigation-item">
+                            <a href="dropdowns.html" class="navigation-link">Dropdowns</a>
+                        </li>
+                        <li class="navigation-item">
+                            <a href="forms.html" class="navigation-link">Forms</a>
+                        </li>
+                        <li class="navigation-item">
+                            <a href="modal.html" class="navigation-link">Modal</a>
+                        </li>
+                        <li class="navigation-item">
+                            <a href="navbar.html" class="navigation-link">Navbar</a>
+                        </li>
+                        <li class="navigation-item">
+                            <a href="navs.html" class="navigation-link">Navs</a>
+                        </li>
+                        <li class="navigation-item">
+                            <a href="pagination.html" class="navigation-link">Pagination</a>
+                        </li>
+                        <li class="navigation-item">
+                            <a href="progress.html" class="navigation-link">Progress</a>
+                        </li>
+                        <li class="navigation-item">
+                            <a href="tables.html" class="navigation-link">Tables</a>
+                        </li>
+                        <li class="navigation-item">
+                            <a href="tooltips.html" class="navigation-link">Tooltips</a>
+                        </li> -->
+                </ul>
+            </div>
+        </aside>
+        <section class="content">
+            <div class="header">
+                <div class="navigation-trigger d-xl-none" data-action="aside-open" data-target=".sidebar">
+                    <div class="navigation-trigger-inner">
+                        <i class="navigation-trigger-line"></i>
+                        <i class="navigation-trigger-line"></i>
+                        <i class="navigation-trigger-line"></i>
+                    </div>
+                </div>
+                <div class="header-brand d-xl-none">
+                    <h1><a href="index.html">Boomerang UI Kit</a></h1>
+                </div>
+                <div class="header-nav ml-auto">
+                    <ul class="nav align-items-center">
+                        <li class="nav-item d-none d-md-inline-block">
+                            <a class="nav-link pl-0 active" href="../index.html">Go to index</a>
+                        </li>
+                        <li class="nav-item d-none d-md-inline-block">
+                            <a class="nav-link" href="#">Changelog</a>
+                        </li>
+                        <li class="nav-item ml-4">
+                            <a href="#" class="btn btn-sm btn-primary">下载(待更新）</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="content-inner content-docs">
+                <div class="container">
+                    <!-- <div class="pt-3 pb-4 mb-4 border-bottom">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <h2 class="heading h2 font-weight-bold">Buttons</h2>
+                                <p>Use our custom button styles for actions in forms, dialogs, and more with support for multiple sizes, states, and more.</p>
+                                <a href="http://getbootstrap.com/docs/4.0/components/buttons" target="_blank">Open Bootstrap Docs</a>
+                            </div>
+                        </div>
+                    </div> -->
+                    <div class="row">
+                        <div class="col-lg-9">
+                            <h3 id="example">Example</h3>
+                            <div class="code-example">
+                                <button type="button" class="btn btn-primary">收益展示</button>
+                            </div>
+                            <div class="highlight">
+                                <pre><code class="language-html" data-lang="html"><img src="../assets/images/11.png" alt=""></code></pre>
+                            </div>
+                            <h3 id="animated-buttons">头条号注册</h3>
+                            <div class="code-example">
+                                <button type="button" class="btn btn-primary btn-animated btn-animated-x">
+                    <span class="btn-inner--visible">流程</span>
+                    <span class="btn-inner--hidden"><i class="fas fa-play"></i></span>
+                  </button>
+                                <!-- <button type="button" class="btn btn-secondary btn-animated btn-animated-y">
+                    <span class="btn-inner--hidden">Buy</span>
+                    <span class="btn-inner--visible"><i class="fas fa-shopping-cart"></i></span>
+                  </button>
+                                <button type="button" class="btn btn-primary btn-animated btn-animated-x">
+                    <span class="btn-inner--visible">Next step</span>
+                    <span class="btn-inner--hidden"><i class="fas fa-arrow-right"></i></span>
+                  </button>
+                                <button type="button" class="btn btn-dark btn-animated btn-animated-y">
+                    <span class="btn-inner--visible"><i class="fas fa-play"></i></span>
+                    <span class="btn-inner--hidden"><i class="fas fa-pause"></i></span>
+                  </button> -->
+                            </div>
+                            <div class="highlight">
+                                <pre><code class="language-html" data-lang="html" ><span style="max-width: 100px;">                                  
+                                  <strong>注册流程</strong>
+                                  
+                                  （一）注册前准备：
+                                  1.个人类型注册头条号材料：只需提交帐号头像、帐号名称、帐号介绍，即可完成注册。
+                                  2.使用电脑打开网址 https://mp.toutiao.com/ ，进入头条号注册平台，点击“注册”。</span>
+
+                             
+                                  <img src="../assets/images/13.jpg" alt="">
+                                  <span>（二）开始注册
+                                    1.注册：可通过手机号、QQ、微信、邮箱4种方式注册。
+                                    2.选择头条号类型，个人发文的话选择「个人」即可。
+                                    </span>
+                                    <img src="../assets/images/14.jpg" alt="">
+                                    <span>3.进入详情页面，帐号名称、介绍、头像是必填项，创作能力证明选填，
+                                      最后别忘了勾选“同意《头条号用户注册协议》”哦～</span>
+                                    <img src="../assets/images/15.jpg" alt="">
+                                    <span>4.填写好所有必填项后，点击提交并等待审核，通过后就是一名头条号创作者啦！</span>
+                                    <img src="../assets/images/16.jpg" alt="">
+                                    <span><strong>注意事项</strong>
+                                    <span>
+                                      “创作能力证明”：
+                                      该功能是头条号平台新增功能，作者通过提交在第三方平台发布的内容，
+                                      可帮助头条号平台迅速判断个人创作能力，
+                                      从而优先获得原创、双标题、优化助手、加 V 认证等高级功能，以及多种签约计划的扶持。
+                                      在注册个人类型帐号时，勾选页面底部「创作能力证明」，
+                                      点击「提交」后，使用微信公众平台绑定的管理员个人微信号扫描二维码，并确认绑定。</span>
+                                      需注意2点：
+                                      同一个微信内容源只能为一个帐号进行「创作能力证明」。
+                                      如果提交的内容源已为其他帐号证明，则提示失败，需更换内容源。
+                                      帐号成功提交内容源后，暂不支持解除绑定和更换绑定，请确认无误后再进行扫码确认。
+                                      发文前需上传身份证，完成“实名认证”。
+                                      第一步：在PC端左侧「个人中心」-「我的权益」-点击「前往认证」
+                                      第二步：使用注册帐号时所用的登录方式（邮箱、手机、微信、QQ等），登录今日头条客户端，
+                                      在「我的」-「实名认证」页面，按系统提示进行操作。
+                                      </span>
+                                      <img src="../assets/images/17.jpg" alt="">
+                                </code></pre>
+                            </div>
+                            <h3 id="labeled-buttons">西瓜视频注册</h3>
+                            <div class="code-example">
+                                <div class="btn-group btn-action-label" role="group" aria-label="Like">
+                                    <button type="button" class="btn btn-sm btn-secondary btn-action">
+                      <i class="fas fa-thumbs-up"></i>
+                      <span>Like</span>
+                    </button>
+                                    <a href="#" class="btn btn-sm btn-outline-secondary btn-label">1030</a>
+                                </div>
+                                <div class="btn-group btn-action-label" role="group" aria-label="Like">
+                                    <a href="#" class="btn btn-sm btn-outline-secondary btn-label">300</a>
+
+
+
+                                </div>
+                            </div>
+                            <div class="highlight">
+                                <pre><code class="language-html" data-lang="html">
+                                  <span>
+                                    一. 手机1步极速申请注册
+                                        上线西瓜视频APP，进到【我的】界面，
+                                        点一下右上方【公布】-【上传视频】公布你的代表作。
+                                        公布视频过程当中别忘了做完实名认证哦！
+                                  </span>
+                                  <img src="../assets/images/18.jpg" alt="">
+                                </code></pre>
+                            </div>
+                            <h3 id="buttons-with-icon-labels">抖音号注册</h3>
+                            <div class="code-example">
+                                <button type="button" class="btn btn-dark btn-icon-label">
+                    <span class="btn-inner--icon"><i class="fas fa-play"></i></span>
+                    <span class="btn-inner--text">Play now</span>
+                  </button>
+                            </div>
+                            <div class="highlight">
+                                <pre><code class="language-html" data-lang="html"><a href="https://zhuanlan.zhihu.com/p/496900617" target="_blank">注册</a></code></pre>
+                            </div>
+                            <h3 id="icon-buttons">素材寻找</h3>
+                            <div class="code-example">
+                                <button type="button" class="btn btn-sm btn-outline-primary btn-icon">
+                    <span class="btn-inner--text">Create account</span>
+                    <span class="btn-inner--icon"><i class="fas fa-user"></i></span>
+                  </button>
+
+                            </div>
+                            <div class="highlight">
+                                <pre><code class="language-html" data-lang="html"></code><span>登录首页，茶狐官网，免费素材</span></pre>
+                            </div>
+                            <h3 id="toolbars">影评</h3>
+                            <div class="code-example">
+                                <div class="mb-5">
+                                    <div class="btn-group" role="group" aria-label="Basic example">
+                                        <button type="button" class="btn btn-secondary">set</button>
+                                    </div>
+                                </div>
+                                <!-- <div class="mb-5">
+                                    <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+                                        <div class="btn-group mr-2" role="group" aria-label="First group">
+                                            <button type="button" class="btn btn-secondary"><i class="fas fa-align-left"></i></button>
+                                            <button type="button" class="btn btn-secondary"><i class="fas fa-align-center"></i></button>
+                                            <button type="button" class="btn btn-secondary active"><i class="fas fa-align-right"></i></button>
+                                            <button type="button" class="btn btn-secondary"><i class="fas fa-align-justify"></i></button>
+                                        </div>
+                                        <div class="btn-group mr-2" role="group" aria-label="Second group">
+                                            <button type="button" class="btn btn-secondary"><i class="fas fa-bold"></i></button>
+                                            <button type="button" class="btn btn-secondary"><i class="fas fa-italic"></i></button>
+                                            <button type="button" class="btn btn-secondary"><i class="fas fa-underline"></i></button>
+                                        </div>
+                                        <div class="btn-group" role="group" aria-label="Third group">
+                                            <button type="button" class="btn btn-secondary"><i class="fas fa-font"></i></button>
+                                        </div> -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="highlight">
+                        <pre><code class="language-html" data-lang="html"></code><span>
+                          1、搜索电影影评，电视剧分集剧情
+                          2、利用首页资源栏文字伪原创工具，进行重写
+                        </span></pre>
+                    </div>
+                    <h3 id="colors">文字转语音</h3>
+                    <div class="code-example">
+                        <div class="row">
+
+                        </div>
+                    </div>
+                    <div class="highlight">
+                        <pre><code class="language-html" data-lang="html">使用首页的文字转语音</code></pre>
+                    </div>
+                    <h3 id="states">识别字幕</h3>
+                    <div class="code-example">
+                    </div>
+                    <div class="highlight">
+                        <pre><code class="language-html" data-lang="html"><span>使用首页剪映功能</span></code></pre>
+                    </div>
+                    <h3 id="sizing">画面匹配</h3>
+                    <div class="code-example">
+                    </div>
+                    <div class="highlight">
+                        <pre><code class="language-html" data-lang="html"></code></pre>
+                    </div>
+                    <h3 id="social-buttons">画面替换</h3>
+                    <div class="code-example">
+                    </div>
+                    <div class="highlight">
+                        <pre><code class="language-html" data-lang="html"></code></pre>
+                    </div>
+                </div>
+                <div class="col-lg-3 d-none d-lg-inline-block">
+                    <div class="sidebar-sticky" data-stick-in-parent="true">
+                        <ul class="section-nav">
+                            <li class="toc-entry toc-h3"><a href="#example">Example</a></li>
+                            <li class="toc-entry toc-h3"><a href="#animated-buttons">头条号注册</a></li>
+                            <li class="toc-entry toc-h3"><a href="#labeled-buttons">西瓜视频注册</a></li>
+                            <li class="toc-entry toc-h3"><a href="#buttons-with-icon-labels">抖音号注册</a></li>
+                            <li class="toc-entry toc-h3"><a href="#icon-buttons">素材寻找</a></li>
+                            <li class="toc-entry toc-h3"><a href="#toolbars">影评</a></li>
+                            <li class="toc-entry toc-h3"><a href="#colors">文字转语音</a></li>
+                            <li class="toc-entry toc-h3"><a href="#states">识别字幕</a></li>
+                            <li class="toc-entry toc-h3"><a href="#sizing">画面匹配</a></li>
+                            <li class="toc-entry toc-h3"><a href="#social-buttons">画面替换</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            </div>
+            </div>
+            <footer class="px-3 footer bg-white">
+                <div class="container ">
+                    <div class="row align-items-center py-3 border-top">
+                        <div class="col-lg-6 text-center text-lg-left mb-2 mb-lg-0">
+                            &copy; 2022 <a href="https://webpixels.io/" target="_blank">关注</a>.Cpp0826.
+                        </div>
+                        <div class="col-lg-6 text-center text-lg-right">
+                            <ul class="nav justify-content-center justify-content-lg-end">
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#" target="_blank"><i class="fab fa-facebook"></i></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#" target="_blank"><i class="fab fa-github"></i></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#" target="_blank"><i class="fab fa-dribbble"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </section>
+    </main>
+    <!-- Core -->
+    <script src="../assets/vendor/jquery/jquery.min.js"></script>
+    <script src="../assets/vendor/popper/popper.min.js"></script>
+    <script src="../assets/js/bootstrap/bootstrap.min.js"></script>
+    <!-- FontAwesome 5 -->
+    <script src="../assets/vendor/fontawesome/js/fontawesome-all.min.js" defer></script>
+    <!-- Scripts used only for this demo only - Remove these in your project -->
+    <script src="../assets/vendor/jquery-scrollbar/js/jquery-scrollbar.min.js"></script>
+    <script src="../assets/vendor/jquery-scrollLock/jquery-scrollLock.min.js"></script>
+    <script src="../assets/vendor/sticky-kit/sticky-kit.min.js"></script>
+    <script src="../assets/vendor/highlight/js/highlight.min.js"></script>
+    <script src="../assets/vendor/clipboard-js/clipboard.min.js"></script>
+    <script src="../assets/vendor/holderjs/holder.min.js"></script>
+    <script src="../assets/js/demo.js"></script>
+    <!-- Theme JS -->
+    <script src="../assets/js/theme.js"></script>
+</body>
+
+</html>
